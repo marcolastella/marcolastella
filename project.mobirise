@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "name": "Marco Lastella",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 2,
+    "versionPublish": "3.11.1",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+    "noImageResize": "",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article H3": {
+              "text-align": "left",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#000000"
+            },
+            ".mbr-article H2": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-header .mbr-header__text H1": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-article H5": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-0",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#e1e1e1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showMeta": false,
+            "darkBackground": false
+          },
+          "title": "<h1>MARCO LASTELLA</h1>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<h2><span style=\"font-weight: normal;\">IL GUERRIERO DELLA LUCE CERCA SEMPRE DI MIGLIORARE.</span></h2><h3><span style=\"font-weight: normal;\"><span style=\"font-family: inherit; line-height: 1.3em;\">OGNI COLPO DELLA SUA SPADA PORTA CON SÉ SECOLI DI SAPIENZA E MEDITAZIONE.&nbsp;</span><span style=\"font-family: inherit; line-height: 1.3em;\">PER OGNI FENDENTE SONO NECESARIE L'ABILITÀ DI TUTTI I GUERRIERI DEL PASSATO, CHE ANCORA OGGI CONTINUANO A BENEDIRE LA LOTTA. OGNI MOSSA DEL COMBATTIMENTO ONORA QUELLO CHE LE GENERAZIONI PRECEDENTI HANNO CERCATO DI TRASMETTERE ATTRAVERSO LA TRADIZIONE.</span></span></h3><h3><span style=\"font-weight: normal;\">IL GUERRIERO DELLA LUCE INCREMENTA LA BELLEZZA DEI SUOI COLPI.</span></h3><h5><span style=\"font-weight: normal;\">[Londra 2017]</span></h5>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://marcolastella.it\" data-toolbar=\"-mbrBtnMove\">PAULO COELHO</a>"
+        }
+      ]
+    }
+  }
+}
