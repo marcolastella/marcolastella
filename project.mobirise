@@ -45,7 +45,7 @@
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/labodi-con-gusto-70-di-90-2000x1333.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1346x1080.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -55,7 +55,7 @@
             },
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.3"
+            "overlayOpacity": "0.9"
           },
           "title": "MARCO LASTELLA<br>",
           "text": "<span style=\"font-style: normal;\">PHOTOGRAPHER • ARTIST</span><br>",
@@ -69,7 +69,7 @@
             ".mbr-section-title": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "color": "#000000",
+              "color": "#28324e",
               "font-size": "60px",
               "text-align": "center"
             },
@@ -79,7 +79,7 @@
               "text-align": "center"
             },
             ".mbr-section-lead SPAN": {
-              "color": "#000000",
+              "color": "#28324e",
               "font-size": "17px"
             }
           }
