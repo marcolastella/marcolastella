@@ -1,7 +1,7 @@
 {
   "settings": {
+    "name": "Marco Lastella Official",
     "currentPage": "index.html",
-    "name": "My Site",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -19,11 +19,14 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#161616"
+      ]
     },
-    "versionFirst": "3.10.8",
-    "uniqCompNum": 0,
-    "versionPublish": "4.0.17"
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 8,
+    "versionPublish": "4.3.0"
   },
   "pages": {
     "index.html": {
@@ -37,42 +40,45 @@
       },
       "components": [
         {
-          "_name": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_anchor": "header1-1",
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "left",
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/-b4c0913-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#a07e49",
+            "bgColor": "#161616",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.7"
           },
           "title": "MARCO LASTELLA",
-          "text": "<span style=\"font-style: normal;\">FOTOGRAFO • ARTISTA</span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://marcolastella.it\" data-toolbar=\"-mbrBtnMove\">PAGINA IN COSTRUZIONE</a> ",
+          "text": "<span style=\"font-style: normal;\">song writer • artist •photograper</span><br><span style=\"font-style: normal;\">sta per arrivare qualcosa...<br></span><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-5",
           "_styles": {
             ".mbr-section-lead": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "text-align": "left"
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-size": "16px",
+              "color": "#efefef"
             },
             ".mbr-section-title": {
-              "text-align": "left",
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-size": "46px"
+              "font-size": "48px",
+              "color": "#efefef"
             }
           }
         }
