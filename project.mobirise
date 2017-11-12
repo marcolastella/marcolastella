@@ -26,7 +26,7 @@
     },
     "versionFirst": "3.11.1",
     "uniqCompNum": 8,
-    "versionPublish": "4.3.0"
+    "versionPublish": "4.3.4"
   },
   "pages": {
     "index.html": {
@@ -43,11 +43,11 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/sebastian-cole-134857-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#161616",
@@ -57,11 +57,11 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.7"
+            "overlayOpacity": "0.5"
           },
           "title": "MARCO LASTELLA",
-          "text": "<span style=\"font-style: normal;\">song writer • artist •photograper</span><br><span style=\"font-style: normal;\">sta per arrivare qualcosa...<br></span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "text": "<span style=\"font-style: normal;\">PHOTOGRAPHER</span><br><span style=\"font-style: normal;\">milano</span><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://form.jotformeu.com/73153801782355\" data-toolbar=\"-mbrBtnMove\">Prenota un servizio</a> ",
           "_tags": [
             "Theme"
           ],
