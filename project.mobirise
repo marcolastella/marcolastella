@@ -11,7 +11,7 @@
       ]
     },
     "versionFirst": "4.3.4",
-    "uniqCompNum": 19,
+    "uniqCompNum": 20,
     "versionPublish": "4.3.4"
   },
   "pages": {
@@ -48,7 +48,7 @@
           },
           "title": "MARCO LASTELLA",
           "text": "FOTOGRAFO<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://form.jotformeu.com/73334020746349\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RICHIEDI CASTING</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://form.jotformeu.com/73334020746349\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ACCEDI AL CASTING</a>",
           "_tags": [
             "Theme"
           ],
@@ -190,6 +190,40 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-e"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "right",
+            "bgImageRadio": false,
+            "bgImage": "images/bg2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/r9xxybyFIqU?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/r9xxybyFIqU",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MOBIRISE",
+          "text": "Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header2",
+          "_anchor": "header2-j"
         },
         {
           "_params": {
