@@ -1,38 +1,24 @@
 {
   "settings": {
-    "name": "Marco Lastella Official",
+    "name": "Site-11-16_1832",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
-      "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
-      },
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {},
       "additionalSetColors": [
-        "#161616"
+        "#3c3c3c"
       ]
     },
-    "versionFirst": "3.11.1",
-    "uniqCompNum": 8,
+    "versionFirst": "4.3.4",
+    "uniqCompNum": 19,
     "versionPublish": "4.3.4"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -40,6 +26,7 @@
       },
       "components": [
         {
+          "_inherit": "header1",
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -47,40 +34,406 @@
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/sebastian-cole-134857-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/andrew-neel-369701-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#161616",
+            "bgColor": "#4c6972",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.5"
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "MARCO LASTELLA",
-          "text": "<span style=\"font-style: normal;\">PHOTOGRAPHER</span><br><span style=\"font-style: normal;\">milano</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://form.jotformeu.com/73153801782355\" data-toolbar=\"-mbrBtnMove\">Prenota un servizio</a> ",
+          "text": "FOTOGRAFO<br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://form.jotformeu.com/73334020746349\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RICHIEDI CASTING</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-5",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-1"
+        },
+        {
+          "_inherit": "msg-box3",
           "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
             },
-            ".mbr-section-lead SPAN": {
-              "font-size": "16px",
-              "color": "#efefef"
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
             },
-            ".mbr-section-title": {
-              "font-size": "48px",
-              "color": "#efefef"
+            ".mbr-article": {
+              "color": "#fff",
+              "text-align": "center"
             }
-          }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": true,
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "I MIEI CLIENTI",
+          "text": "Una storia continua fatta di grandi momenti e di collaborazioni straordinarie",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "_name": "content5",
+          "_anchor": "content5-i"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "fullWidth": true,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": false,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/logo-first-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/logo-first-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/con-gusto-gourmet-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/con-gusto-gourmet-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/labodi-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/labodi-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/bazz-web-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bazz-web-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/fist-agency-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fist-agency-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/la-fucina-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/la-fucina-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/fondazione-nord-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fondazione-nord-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/regina-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/regina-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/regione-lomb-logo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/regione-lomb-logo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/masterchef-italia-lgo-1535x1535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/masterchef-italia-lgo-1535x1535-800x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": true,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-e"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">CONTATTAMI</a>",
+          "text1": "<strong>SEDE</strong><br>\nArese<br>\nMilano<br><br>\n<strong>CONTATTI</strong><br>\nEmail: marco.lastella@mail.com<br>Tel: +39 327 37 40 925<br>",
+          "text2": "<ul class=\"mbr-contacts__list\"></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "marco.lastella@hotmail.it",
+            "alerts": {
+              "success": "Grazie per aver compilato questo form, ti contatteremo entro pochi minuti."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Messagio"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-a"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Page Builder Description",
+        "title": "Servizi Foto",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=FkS47Qi2hdc",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on"
+            }
+          },
+          "title": "FASHION",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Un tocco ricercato per degli scatti di moda che oltrepassano i parametri standard, credo nei miei progetti per la loro varietà.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SCOPRI</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-b"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f97352",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "src": "https://vimeo.com/118838202",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on",
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "EVENTI",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-c"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "RITRATTI",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television. Mobirise provides a support for YouTube and Vimeo that allow you to liven up your sites.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-d"
         }
       ]
     }
