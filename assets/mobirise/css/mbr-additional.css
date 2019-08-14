@@ -3962,6 +3962,10 @@ body {
 .cid-rxef6U5QRO {
   background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
 }
+.cid-rxef6U5QRO .mbr-text,
+.cid-rxef6U5QRO .mbr-section-btn {
+  text-align: left;
+}
 .cid-rovO8FtqZZ {
   padding-top: 30px;
   padding-bottom: 30px;
