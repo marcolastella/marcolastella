@@ -1,5 +1,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://marcolastella.com/index.html</loc>
+		<loc>https://marcolastella.com/index.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/epk.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/contatti.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/discografia.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/foto.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/video.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/bio.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/concerti.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/epkeng.html</loc>
+	</url>
+	<url>
+		<loc>https://marcolastella.com/policy.html</loc>
 	</url>
 </urlset>
