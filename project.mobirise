@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Marco Lastella",
-    "currentPage": "index.html",
+    "currentPage": "privacy.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -6176,7 +6176,7 @@
         }
       ]
     },
-    "policy.html": {
+    "privacy.html": {
       "settings": {
         "meta_descr": "How we use youre data",
         "title": "Privacy policy",
